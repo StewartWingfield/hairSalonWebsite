@@ -44,8 +44,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 1050px;
+    height: 600px;
     color: #464646;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
