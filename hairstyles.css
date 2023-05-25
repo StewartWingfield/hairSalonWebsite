@@ -1,0 +1,82 @@
+.header{
+    background-color:#4C8F96;
+    width: 100%;
+    height: 154px;
+    margin-bottom: -165px;
+}
+.top {
+    margin-top: 50px;
+}
+.navigation{
+    display: flex;
+    position: relative;
+    top: -95px;
+    column-gap: 25px;
+    margin-left: 400px;
+}
+.navigation a{
+    background-color: #222842;
+    color: white;
+    font-size: 16px;
+    padding: 0 15px;
+    letter-spacing: 0.05em;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.logo {
+    background-color: #222842;
+    color: #FFFFFF;
+    font-family: 'Arimo-Bold';
+    height: 130px;
+    line-height: 130px;
+	font-size: 60px;
+    text-align: center;
+	width: 270px;
+}
+.footer{
+    background-color: #4c8f96;
+    border-top: 1px solid #9bd9e0;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100%;
+}
+.footer p {
+    margin-left: 770px;
+    margin-top: 40px;
+}
+.connect {
+    display: flex;
+    align-items: center;
+    float: right;
+    background-color: #387A82;
+    height: 18px;
+    padding: 22px 20px;
+    width: 144px;
+    margin-top: 20px;
+    margin-right: 460px;
+}
+.connect a {
+    background: url(https://freewebsitetemplates.com/preview/hairstylesalon/images/icons.png) no-repeat;
+    float: left;
+    height: 20px;
+    margin: 0 8px;
+    padding: 0;
+    text-indent: -99999px;
+    width: 20px;
+}
+.connect #twitter{
+    background-position: 0 -32px;
+}
+.connect #facebook{
+    background-position: 0 -57px;
+}
+.connect #googleplus{
+    background-position: 0 -82px;
+}
+.connect #pinterest{
+    background-position: 0 -107px
+}
