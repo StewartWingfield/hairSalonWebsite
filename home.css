@@ -58,6 +58,7 @@ body{
     margin-top: 25px;
     height: 356px;
     width: 1000px;
+    line-height: 60px;
 }
 .gallery {
     display: flex;
