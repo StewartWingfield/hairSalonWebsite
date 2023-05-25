@@ -1,3 +1,6 @@
+body{
+    background-color: #EDEDED;
+}
 .page {
     margin-left: 400px;
     font-size: 12px;
@@ -45,10 +48,13 @@
 .great{
     border: 2px solid #4C8F96;
     border-radius: 2px;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 22px;
+    color: #1b2130;
+    font-family: 'ChangaOne';
+    font-size: 25px;
     margin-top: 25px;
     height: 356px;
     width: 1000px;
