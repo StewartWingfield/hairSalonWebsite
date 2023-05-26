@@ -9,9 +9,11 @@ body{
 }
 .header{
     background-color:#4C8F96;
-    width: 100%;
     height: 154px;
     margin-bottom: -165px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1450px;
 }
 .top {
     margin-top: 50px;
@@ -48,13 +50,14 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 42px;
+    width: 1000px;
+    row-gap: 24px;
 }
 img{
     border: 5px solid #5FB3BD;
     border-radius: 5px;
     filter: drop-shadow(0px 10px 10px black);
-    margin-right: 20px;
-    margin-bottom: 15px;
 }
 .footer{
     background-color: #4c8f96;
@@ -63,7 +66,9 @@ img{
     margin-top: 50px;
     margin-bottom: 30px;
     height: 100px;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1450px;
 }
 .footer p {
     margin-left: 770px;
@@ -101,3 +106,80 @@ img{
 .connect #pinterest{
     background-position: 0 -107px
 }
+@media (max-width: 768px) {
+    .page {
+      margin-left: 0;
+      width: auto;
+      min-width: none;
+      padding: 0 20px;
+    }
+    .navigation {
+    display: none;
+    }
+    .header{
+        display: none;
+    }
+    .logo {
+      margin: 0 auto;
+      width: auto;
+    }
+    .main {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      column-gap: 0;
+      row-gap: 20px;
+      width: auto;
+    }
+    .last{
+        grid-column: 2/3;
+    }
+    .footer {
+      margin-bottom: 20px;
+      margin-top: 0px;
+      min-width: 768px;
+    }
+    .footer p {
+      margin-left: 0;
+      text-align: center;
+    }
+    .connect {
+        display: none;
+    }
+    h2{
+        text-align: center;
+    }
+  }
+  @media (max-width: 375px) {
+    .page{
+        padding: 0;
+    }
+    .header{
+    display: none;
+    }
+    .logo{
+    margin-left: none;
+    }
+    .navigation {
+      display: none;
+    }
+    .main {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      column-gap: 5px;
+      row-gap: 16px;
+      margin-left: 70px;
+    }
+    .last {
+        grid-column: 1/2;
+    }
+    .footer {
+      min-width: 200px;
+      margin-top: 40px;
+    }
+    .connect {
+     display: none;
+    }
+    h2{
+        text-align: center;
+    }
+  }
